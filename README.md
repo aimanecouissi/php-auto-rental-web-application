@@ -1,4 +1,4 @@
-<img src="https://socialify.git.ci/aimanecouissi/car-rental-web-app/image?description=1&language=1&name=1&owner=1&theme=Auto" alt="car-rental-web-app" />
+<img src="https://socialify.git.ci/aimanecouissi/car-rental-web-app/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto" alt="car-rental-web-app" />
 
 # Car Rental Web Application 🚗
 
