@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* GLOBAL */
+
+:root {
+    --brand-color: #1b74e4;
+    --brand-color-hover: #124b94;
+}
+
+body {
+    background-color: #F0F2F5;
+    font-family: "Bai Jamjuree";
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--brand-color-hover);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--brand-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--brand-color-hover);
+}
+
+/* RESET */
+
+.text-primary {
+    color: var(--brand-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--brand-color);
+    color: white !important;
+    border: 1px solid var(--brand-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--brand-color-hover);
+    color: white;
+    border: 1px solid var(--brand-color-hover);
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: var(--brand-color-hover);
+    color: white;
+    border: 1px solid var(--brand-color-hover);
+}
+
+.bg-primary {
+    background-color: var(--brand-color) !important;
+    color: white;
+}
+
+.bg-dark {
+    background-color: #141414 !important;
+}
+
+.form-control {
+    text-indent: 1.8rem;
+}
+
+.input-group .form-control {
+    text-indent: 0 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+.bg-dark .form-control,
+.bg-dark .form-select {
+    background-color: transparent;
+    border-color: white !important;
+    color: white;
+}
+
+.bg-dark .form-control::placeholder {
+    color: lightgray;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.navbar-brand span {
+    color: var(--brand-color);
+}
+
+.nav-link,
+.dropdown-item {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.navbar-dark .nav-link,
+.navbar-dark .dropdown-item {
+    color: lightgray;
+}
+
+.dropdown-item {
+    font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: black;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+    color: white;
+}
+
+.nav-item .active:hover {
+    color: var(--brand-color-hover) !important;
+}
+
+.nav-item .active {
+    color: var(--brand-color) !important;
+}
+
+.navbar-dark .nav-item .active:hover {
+    color: white !important;
+}
+
+.navbar-dark .nav-item .active {
+    color: white !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem #1b75e4ac !important;
+    border: var(--brand-color) !important;
+}
+
+/* HERO */
+
+.floating {
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.pt {
+    padding-top: 5.6rem;
+}
+
+.bg-hero {
+    background-image: url("../img/bg.svg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.bg-hero-dark {
+    background-image: url("../img/bg_dark.svg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.bg-hero-dark .border {
+    border-color: white;
+}
+
+h1 span {
+    color: var(--brand-color);
+}
+
+/* CARS */
+
+.card-custom-img img {
+    transition: all 1s ease;
+}
+
+.card-custom-img:hover img {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+
+footer a:hover {
+    color: black !important;
+}
+
+/* FEATURES */
+
+.feature-icon {
+    background-color: var(--brand-color);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.card-overlay {
+    z-index: 1;
+}
+
+.card-overlay::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--brand-color);
+    transition: all 0.4s ease;
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+
+.card-overlay:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.card-overlay:hover {
+    color: white;
+}
+
+.card-overlay:hover .feature-icon {
+    color: var(--brand-color);
+    background-color: white;
+}
+
+/* TESTIMONIALS */
+
+.testimonial img {
+    object-fit: cover;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: var(--brand-color) !important;
+}
+
+/* CONTACT */
+
+/* .contact-card {
+    width: 100%;
+    height: 300px;
+}
+
+.contact-card-front {
+    background-color: var(--brand-color);
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease;
+}
+
+.contact-icon {
+    color: var(--brand-color);
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card-back {
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: all 0.5s ease;
+}
+
+.contact-card:hover>.contact-card-front {
+    transform: rotateY(-180deg);
+}
+
+.contact-card:hover>.contact-card-back {
+    transform: rotateY(0deg);
+} */
+
+/* LOADER */
+
+.loader {
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: #dbdcef;
+    border-right-color: #1b74e4;
+    animation: spinner-d3wgkg 1s infinite linear;
+}
+
+@keyframes spinner-d3wgkg {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+/* MY BOOKINGS */
+
+table {
+    border-collapse: collapse;
+}
+
+tr th,
+tr td {
+    padding: 1.25rem;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f3ff;
+}
+
+/* PAYMENT */
+
+.border-bottom-dashed {
+    padding-bottom: 1rem;
+    border-bottom: 2px dashed var(--brand-color);
+}
+
+/* ADD NEW CAR */
+
+.border-dashed {
+    border: 2px dashed var(--brand-color);
+}
+
+/* PAGINATION */
+
+.active>.page-link,
+.page-link.active {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+
+.page-link {
+    color: var(--brand-color);
+}
+
+/* REGISTER */
+
+.weak,
+.medium,
+.strong {
+    width: 100%;
+    height: 0.3rem;
+    background-color: lightgray;
+}
+
+.weak-active {
+    background-color: #ff4745;
+}
+
+.medium-active {
+    background-color: orange;
+}
+
+.strong-active {
+    background-color: #23ad5c;
+}
+
+/* BOOKING */
+
+#start_date,
+#end_date {
+    text-indent: 0;
+}
+
+/* PAYMENT */
+
+.form-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+/* MY PROFILE */
+
+.bg-renter {
+    background-image: url("../img/bg_renter.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#password_strength1 {
+    display: none;
+}
