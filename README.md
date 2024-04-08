@@ -1,28 +1,26 @@
-<img src="https://socialify.git.ci/aimanecouissi/car-rental-web-app/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto" alt="car-rental-web-app" />
-
-# Car Rental Web Application
+# CAR RENTAL WEB APPLICATION
 
 Welcome to the Car Rental Web Application repository! This web application was developed during a 3rd-year internship project. It facilitates efficient searching and booking of cars with a user-friendly interface and various filters. Rental companies can manage inventory and reservations through the backend system.
 
-## Features
+## FEATURES
 
 - **Car Search:** Users can search for available cars based on various filters.
 - **Booking System:** Users can easily book cars for specific dates.
 - **Inventory Management:** Rental companies can manage their car inventory.
 - **Reservation Management:** Rental companies can view and manage reservations.
 
-## Technologies
+## TECHNOLOGIES
 
 - **PHP:** Server-side scripting language used for backend development.
 - **MySQL:** Relational database management system for storing application data.
 - **HTML/CSS/JavaScript:** Frontend technologies for building the user interface.
 - **Bootstrap:** Frontend framework for designing responsive and mobile-first websites.
 
-## Demo
+## DEMO
 
 Explore the application in action by watching the video demonstration available in [my portfolio](https://www.aimanecouissi.com/).
 
-## Installation 
+## INSTALLATION 
 
 To run the application locally, follow these steps:
 
@@ -33,7 +31,7 @@ To run the application locally, follow these steps:
 5. Start the local server environment.
 6. Open the application in your web browser.
 
-## Contributing
+## CONTRIBUTING
 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
@@ -44,10 +42,10 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 5. Push to the branch (`git push origin feature/my-new-feature`).
 6. Create a new Pull Request.
 
-## License
+## LICENSE
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+## CONTACT
 
 For any inquiries or feedback, feel free to reach out to me at [contact@aimanecouissi.com](mailto:contact@aimanecouissi.comm).
