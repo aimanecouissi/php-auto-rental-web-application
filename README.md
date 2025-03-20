@@ -1,6 +1,6 @@
-# CAR RENTAL WEB APPLICATION 🚗
+# AUTO RENTAL WEB APPLICATION 🚗
 
-Welcome to the Car Rental Web Application repository! This web application was developed during a 3rd-year internship project. It facilitates efficient searching and booking of cars with a user-friendly interface and various filters. Rental companies can manage inventory and reservations through the backend system.
+Welcome to the Auto Rental Web Application repository! This web application was developed during a 3rd-year internship project. It facilitates efficient searching and booking of cars with a user-friendly interface and various filters. Rental companies can manage inventory and reservations through the backend system.
 
 ## FEATURES 🌟
 
