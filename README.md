@@ -4,16 +4,16 @@ Welcome to the Auto Rental Web Application repository! This web application was 
 
 ## FEATURES ✨
 
-- **Car Search:** 🔍 Users can search for available cars based on various filters.
-- **Booking System:** 📅 Users can easily book cars for specific dates.
-- **Inventory Management:** 📋 Rental companies can manage their car inventory.
+- **Car Search** 🔍 Users can search for available cars based on various filters.
+- **Booking System** 📅 Users can easily book cars for specific dates.
+- **Inventory Management** 📋 Rental companies can manage their car inventory.
 
 ## TECHNOLOGIES 🚀
 
-- **PHP:** 🌐 Server-side scripting language used for backend development.
-- **MySQL:** 🗄️ Relational database management system for storing application data.
-- **HTML/CSS/JavaScript:** 🖥️ Frontend technologies for building the user interface.
-- **Bootstrap:** 📱 Frontend framework for designing responsive and mobile-first websites.
+- **PHP** 🌐 Server-side scripting language used for backend development.
+- **MySQL** 🗄️ Relational database management system for storing application data.
+- **HTML/CSS/JavaScript** 🖥️ Frontend technologies for building the user interface.
+- **Bootstrap** 📱 Frontend framework for designing responsive and mobile-first websites.
 
 ## DEMO 🎬
 
